@@ -11,9 +11,13 @@ body {
     overflow: auto; /* Allow scrolling */
 }
 
+@font-face {
+    font-family: 'digital';
+    src: url('digital.ttf') format('truetype'); /* Ensure the path to the font file is correct */
+}
+
 h1 {
-    font-family: digital;
-    scr:url(digital.ttf);
+    font-family: 'digital', sans-serif; /* Always include a fallback font */
 }
 
 .container {
