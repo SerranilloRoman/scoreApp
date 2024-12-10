@@ -28,7 +28,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: fit-content;
-    margin: auto;
+    margin: 80px;
 }
 
 /* Align Sections in a Row */
